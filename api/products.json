@@ -1,0 +1,11 @@
+[
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 100,
+      "brand": "Brand A",
+      "category": "Category 1",
+      "description": "Description of Product 1"
+    }
+  ]
+  
