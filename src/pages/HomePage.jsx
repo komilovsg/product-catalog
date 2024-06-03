@@ -18,7 +18,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto mt-11'>
       <Filter onFilter={handleFilter} />
       <ProductList
         searchText={searchText}

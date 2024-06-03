@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --bg-color: #fff; /* цвет фона для светлой темы */
+    --text-color: #333; /* цвет текста для светлой темы */
+  }
+  
+  /* стили для светлой темы */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  /* стили для темной темы */
+  body.dark-theme {
+    --bg-color: #333; /* цвет фона для темной темы */
+    --text-color: #fff; /* цвет текста для темной темы */
+  }
+  

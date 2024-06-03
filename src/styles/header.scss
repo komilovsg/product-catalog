@@ -1,0 +1,20 @@
+.header-body {
+  color: black;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  &.dark-theme {
+    color: white;
+    background-color: rgb(33, 33, 33);
+  }
+
+  span {
+    color: black;
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    margin-left: 0.75rem;
+    &.dark-theme {
+      color: white;
+    }
+  }
+}
